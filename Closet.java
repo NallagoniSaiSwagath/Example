@@ -8,7 +8,7 @@ class Main {
     }
     static int closestNumber(int n, int m) {
         // find the quotient
-        int closest = 0;//12
+        int closestNumbe = 0;//12
         int minDifference = Integer.MAX_VALUE;//1
 
         // Check numbers around n
@@ -23,7 +23,7 @@ class Main {
                 }
             }
         }
-        return closest;
+        return closestNumbe;
     }
 
     
